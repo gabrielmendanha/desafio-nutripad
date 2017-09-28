@@ -15,9 +15,7 @@ RSpec.describe NumerosController, type: :controller do
     end
 
     it 'recebe um número grande demais' do
-      get :show, format: :json, params: { id: '999999999999999999999999999999999' +
-          '999999999999999999999999999999999999999999999999999999999999999' +
-          '9999999999999999999999999999999999999999999999999999999999991' }
+      get :show, format: :json, params: { id: '9999999999999999991' }
       expect(response).to have_http_status(400)
     end
 

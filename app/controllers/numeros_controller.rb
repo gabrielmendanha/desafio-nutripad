@@ -1,13 +1,11 @@
 class NumerosController < ApplicationController
   before_action :check_number
 
-  HUMANIZE_MAX = 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+  HUMANIZE_MAX = 999999999999999999
 
   def show
-    numero = params[:id]
-    numero = numero.to_i
-    puts json: numero.humanize
-    render json: { 'frase' => numero.humanize }
+    numbersToWords = NumbersToWords.new()
+    render json: { 'frase' => numbersToWords.in_words(params[:id].to_i) }
   end
 
   def not_found

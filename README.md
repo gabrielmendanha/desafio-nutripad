@@ -1,29 +1,24 @@
-# O desafio
+# README
 
-Escolha uma das opções abaixo. Esperamos um desafio que foque:
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-- Clareza no código
-- Simplicidade
-- Testes automatizados
+Things you may want to cover:
 
-Você poderá desenvolver na linguagem que mais se sentir confortável e tem mais familiaridade. Leve o tempo que achar necessário e nos envie um desafio que se sinta confortável e que você esteja orgulhoso do resultado.
+* Ruby version
 
+* System dependencies
 
+* Configuration
 
-Pedimos que você faça um **fork** desse repositório e ao concluir, nos envie um email avisando da conclusão. Se você preferir, pode colocar um arquivo de texto simples explicando como executar o projeto ou qualquer idéias que teve.
+* Database creation
 
-## Opção 1
+* Database initialization
 
-Converta números na sua palavra equivalente.
+* How to run the test suite
 
-Exemplo: 
+* Services (job queues, cache servers, search engines, etc.)
 
-- 1 = "one"
-- 23 = "twenty three"
-- 132 =  "one hundred thirty two"
+* Deployment instructions
 
-
-
-## Opção 2	
-
-Escreva um programa que converta o número natural para o seu representante romano equivalente
+* ...
